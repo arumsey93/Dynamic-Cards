@@ -1,0 +1,57 @@
+/* Styles the headings and background */
+
+h2 {
+    text-align: center;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    color: #05243A;
+  }
+  
+  body {
+    background-color: #5F818C;
+  }
+  
+  /* Styles the Input area */
+  
+  .input-container {
+    text-align: center;
+  }
+  
+  #input-field {
+    width: 40%;
+    height: 100px;
+  }
+  
+  #create {
+    padding: .5em 1em;
+    font-size: 1em;
+  }
+  
+  /* Styles the Output area */
+  
+  #card-output {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  article {
+    flex-basis: 20%;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    color: #05243A;
+    background-color: rgba(169, 184, 219, 0.54);
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 10px -1px rgba(5, 42, 71, 0.93);
+    -moz-box-shadow: 10px 10px 10px -1px rgba(5, 42, 71, 0.93);
+    box-shadow: 10px 10px 10px -1px rgba(5, 42, 71, 0.93);
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  #delete {
+    display: block;
+    padding: .5em 1em;
+    font-size: 1em;
+    margin: .5em auto;
+  }
